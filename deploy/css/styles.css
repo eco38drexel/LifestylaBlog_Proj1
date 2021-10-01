@@ -2,10 +2,6 @@
     Mixins
 ============= */
 /* ---------------- Font Sizing ---------------- */
-html {
-  font-size: 100%;
-}
-
 /* ---------------- Media Queries ---------------- */
 /* =============
     Variables
@@ -365,36 +361,23 @@ ul li {
   list-style: none;
 }
 
-.container-grid {
-  display: grid;
-  grid-template-areas: ". grid-content .";
-  grid-template-columns: 15px auto 15px;
-  height: 100vh;
-}
-@media (min-width: 1200px) {
-  .container-grid {
-    grid-template-columns: auto 1200px auto;
-  }
-}
-.container-grid > div {
-  grid-area: grid-content;
-}
-
 /* =============
     Typography
 ============= */
-h1, h2, h3, h4 {
+base {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+base h1, base h2, base h3, base h4 {
   margin: 0;
   padding: 0;
 }
-
-p {
+base p {
   margin: 0;
   padding: 0;
 }
-
-h1 {
-  font-size: 6.25rem;
+base h1 {
+  font-size: 100;
   color: red;
 }
 
