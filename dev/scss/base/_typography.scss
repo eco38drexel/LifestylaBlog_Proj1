@@ -2,7 +2,7 @@
     Typography
 ============= */
 
-base {
+body {
   font-family: "Montserrat", sans-serif;
 
   h1,h2,h3,h4 {
@@ -13,11 +13,6 @@ base {
   p {
     margin: 0;
     padding: 0;
-  }
-  
-  h1 {
-    font-size: rem-calc(100);
-    color: white;
   }
 }
 
