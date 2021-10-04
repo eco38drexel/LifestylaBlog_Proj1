@@ -365,7 +365,6 @@ ul li {
     Typography
 ============= */
 base {
-  font-family: "Bebas Neue", cursive;
   font-family: "Montserrat", sans-serif;
 }
 base h1, base h2, base h3, base h4 {
@@ -378,7 +377,7 @@ base p {
 }
 base h1 {
   font-size: 100;
-  color: red;
+  color: white;
 }
 
 /* =============
@@ -408,6 +407,20 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: white;
+  width: 100%;
+  z-index: 100;
+}
+header > div {
+  display: grid;
+  grid-template-columns: 30% auto;
+  padding: 0px 20px;
+}
+header > div aside a {
+  display: inline-block;
+}
+
 /* =============
     Footer
 ============= */
