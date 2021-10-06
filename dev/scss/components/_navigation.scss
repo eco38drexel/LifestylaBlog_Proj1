@@ -1,3 +1,28 @@
 /* =============
     Navigation
 ============= */
+nav{
+    height: 100%;
+    ul{
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 50px;
+        padding-top: 200px;
+        li{
+            margin-left: 30px;
+            a{
+                font-family: 'montserrat', serif;
+                text-decoration: none;
+                color: black;
+                
+
+                &:hover, &:active{
+                    color: grey;
+
+                }
+            }
+
+        }
+    }
+}
