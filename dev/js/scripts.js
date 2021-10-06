@@ -9,7 +9,7 @@ mainTL.from("#sneakers",{duration:1.5,y:"-=300"})
 gsap.registerEffect({
     name:"loop",
     effect: (targets) => {
-        return gsap.from(targets, {duration:10, x:"-=300", repeat:10})
+        return gsap.from(targets, {duration:10, x:"-=300", repeat:10, ease:"none"})
     }
 })
 
