@@ -49,13 +49,13 @@
     },
     "\/deploy\/img\/hero\/WebMotion.jpg" : {
       "ft" : 16384,
-      "iS" : 224728,
+      "iS" : 258729,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hero\/WebMotion.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -402,7 +402,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 654631437.69077206,
-    "displayValue" : "LifestylaBlog_Proj1",
+    "displayValue" : "LifestylaBlog_Proj",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-pink",
     "iconImageWasSetByUser" : 0
@@ -410,7 +410,7 @@
   "projectSettings" : {
     "abortBuildOnError" : 1,
     "allowInjectionReloads" : 1,
-    "alwaysUseExternalServer" : 1,
+    "alwaysUseExternalServer" : 0,
     "animateCSSInjections" : 1,
     "autoBuildNewItems" : 1,
     "autoprefixerEnableIEGrid" : 0,
