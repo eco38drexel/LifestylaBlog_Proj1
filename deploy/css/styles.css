@@ -446,6 +446,12 @@ header > div aside a {
 /* =============
     Footer
 ============= */
+#preloader {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 1000;
+}
 #hero {
   height: 890px;
   width: auto;
