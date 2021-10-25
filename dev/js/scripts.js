@@ -1,4 +1,7 @@
 import { gsap } from "gsap";
+import { GSDevTools } from "gsap/GSDevTools";
+
+gsap.registerPlugin(GSDevTools);
 
 const mainTL = gsap.timeline();
 
@@ -14,3 +17,6 @@ gsap.registerEffect({
 })
 
 gsap.effects.loop("#be")
+
+
+GSDevTools.create();
