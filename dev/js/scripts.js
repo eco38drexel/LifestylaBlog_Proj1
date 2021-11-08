@@ -3,11 +3,6 @@ import { GSDevTools } from "gsap/GSDevTools";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 
 
-var Preloader = "pants-complete, sweatshirt-complete, shoe-complete",
-    tl = gsap.timeline({repeat:1, yoyo:true});
-
-tl.fromTo(Preloader, {drawSVG:"100%"}, {duration: 1, drawSVG:"100%", stagger: 0.1})
-
 gsap.registerPlugin(DrawSVGPlugin);
 
 gsap.registerPlugin(GSDevTools);
@@ -29,3 +24,8 @@ gsap.effects.loop("#be")
 
 
 GSDevTools.create();
+
+var Preloader = "pants-complete, sweatshirt-complete, shoe-complete",
+    tl = gsap.timeline({repeat:1});
+
+tl.fromTo(Preloader, {drawSVG:"100%"}, {duration: 1, drawSVG:"100%", stagger: 2})
