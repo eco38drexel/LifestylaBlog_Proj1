@@ -460,6 +460,10 @@ header > div aside a {
   border: none;
 }
 
+.hide {
+  display: none;
+}
+
 #hero {
   height: 890px;
   width: auto;
