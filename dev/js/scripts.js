@@ -9,11 +9,11 @@ const mainTL = gsap.timeline();
 function preloaderAni(){
     const tl = gsap.timeline();
 
-    tl.from("#shoe-complete",{drawSVG: 0, duration: 6, delay: 0.5, ease: "none"})
-    .to("#shoe",{duration: .3, alpha: 0},"sameTime")
-    .from("#sweatshirt-complete",{duration: 6, drawSVG: "0%", ease: "none"})
-    .to("#sweatshirt",{delay: 5, duration: .3, alpha:0},"sameTime")
-    .from("#pants-complete",{duration: 5, drawSVG: "0%"})
+    tl.from("#shoe-complete",{drawSVG: 0, duration: 8, delay: 0.5, ease: "none"})
+    .to("#shoe",{duration: 1, alpha: 0},"sameTime")
+    .from("#sweatshirt-complete",{duration: 6, drawSVG: "0%", ease: "none", delay: 0.5})
+    .to("#sweatshirt",{delay: 5, duration: 1, alpha:0},"sameTime")
+    .from("#pants-complete",{duration: 5, drawSVG: "0%", ease: "none"})
     .to("#preload-full", {duration: 2, alpha:0, onComplete:backToTop});
     return tl;
 }
@@ -26,7 +26,7 @@ function backToTop(){
 function heroAnimation()
 {
     const tl = gsap.timeline();
-    tl.from("#sneakers",{duration:1.5,y:"-=300"}, {display:"none"})
+    tl.from("#sneakers",{duration:1.5,y:"-=300",alpha:0}, {display:"none"})
     .from("#hero",{duration:2,alpha:0},"-=1.5")
     .from("#hero-content h1",{duration:2,alpha:0});
     return tl;
