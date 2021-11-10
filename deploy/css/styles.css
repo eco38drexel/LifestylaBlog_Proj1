@@ -436,7 +436,6 @@ nav ul li a:hover, nav ul li a:active {
 header {
   background-color: white;
   width: 100%;
-  z-index: 100;
 }
 header > div {
   display: grid;
