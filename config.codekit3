@@ -89,41 +89,32 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/pants.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/design\/pants.svg",
+    "\/design\/Desktop - 1.jpg" : {
+      "ft" : 16384,
+      "iS" : 1843496,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/Desktop - 1.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/design\/preloader-storyboard.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/preloader-storyboard.pdf",
+      "oF" : 0
     },
     "\/design\/Preloader.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/design\/Preloader.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/design\/shoe.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/design\/shoe.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/design\/sweatshirt.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/design\/sweatshirt.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
