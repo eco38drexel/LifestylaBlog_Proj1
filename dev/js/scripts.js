@@ -9,7 +9,7 @@ const mainTL = gsap.timeline();
 function preloaderAni(){
     const tl = gsap.timeline();
 
-    tl.from("#shoe-complete",{drawSVG: 0, duration: 8, delay: 0.5, ease: "none"})
+    tl.from("#shoe-complete",{drawSVG: "0%", duration: 4, ease: "none"})
     .to("#shoe",{duration: 1, alpha: 0},"sameTime")
     .from("#sweatshirt-complete",{duration: 6, drawSVG: "0%", ease: "none", delay: 0.5})
     .to("#sweatshirt",{delay: 5, duration: 1, alpha:0},"sameTime")
@@ -35,7 +35,7 @@ function heroAnimation()
 function bannerAnimation()
 {
     const tl = gsap.timeline({repeat:10});
-    tl.from("#be", {duration:10, x:"-=300", repeat:10, ease:"none"})
+    tl.from("#be", {duration:10, x:"-=300", repeat:10, ease:"none"});
     return tl;
 }
 

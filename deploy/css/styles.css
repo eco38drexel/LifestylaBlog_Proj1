@@ -457,6 +457,7 @@ header > div aside a {
 }
 #preload-full > div svg {
   border: none;
+  width: 100%;
 }
 
 .hide {
