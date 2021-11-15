@@ -1,8 +1,8 @@
 import { gsap } from "gsap";
-import { GSDevTools } from "gsap/GSDevTools";
+// import { GSDevTools } from "gsap/GSDevTools";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 
-gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
+gsap.registerPlugin(DrawSVGPlugin);
 
 const mainTL = gsap.timeline();
 
@@ -54,5 +54,3 @@ mainTL.add(preloaderAni())
 
 // gsap.effects.loop("#be")
 
-
-GSDevTools.create();
